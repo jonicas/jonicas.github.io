@@ -90,7 +90,7 @@ main {
   color: unset;
 }
 
-@media (min-width: 750px) {
+@media screen and (min-width: 750px) {
   .grid-layout {
     grid-template-columns: minmax(auto, 400px) 2fr;
     grid-template-rows: auto;
