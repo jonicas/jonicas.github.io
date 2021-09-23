@@ -70,6 +70,7 @@ h4 {
 p {
   font-size: var(--text-sm);
   line-height: var(--line-height-sm);
+  margin: 0;
 }
 
 .text-heading {
