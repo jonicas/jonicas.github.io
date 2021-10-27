@@ -46,8 +46,9 @@
   --color-warning: #ffd137;
 
   /* space */
-  --space-xxs: 0.75rem;
+  --space-xxs: 0.5rem;
   --space: 2rem;
+  --space-lg: 2rem;
 }
 
 /* theme */
@@ -61,20 +62,19 @@ h4 {
   margin: 0;
 }
 
-.text-sm {
-  font-size: var(--text-sm);
-}
-
-.text-lg {
-  font-size: var(--text-lg);
-  line-height: var(--line-height-lg);
-  color: var(--color-text-subtle);
-}
-
 p {
   font-size: var(--text-sm);
   line-height: var(--line-height-sm);
   margin: 0;
+}
+
+.text-sm {
+  font-size: var(--text-sm);
+}
+.text-lg {
+  font-size: var(--text-lg);
+  line-height: var(--line-height-lg);
+  color: var(--color-text-subtle);
 }
 
 .text-heading {

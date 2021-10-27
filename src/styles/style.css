@@ -19,12 +19,23 @@ body {
 .flex {
   display: flex;
 }
+.flex-row {
+  flex-flow: row wrap;
+}
 .flex-center {
   justify-content: center;
   align-content: center;
 }
 .flex-grow-1 {
   flex-grow: 1;
+}
+.flex-gap-xxs {
+  gap: var(--space-xxs);
+}
+
+.space-y-lg {
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-lg);
 }
 
 /* LAYOUT */
@@ -131,7 +142,12 @@ main {
 }
 
 /* COMPONENTS */
-
+.chip {
+  border: solid var(--color-accent) 1px;
+  border-radius: 4px;
+  padding: 0 12px;
+  line-height: var(--line-height-lg);
+}
 .profile-pic {
   clip-path: circle(49% at 50% 50%);
   width: 50%;
