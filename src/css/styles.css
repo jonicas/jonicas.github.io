@@ -22,6 +22,9 @@ body {
 .flex-row {
   flex-flow: row wrap;
 }
+.flex-column {
+  flex-flow: column wrap;
+}
 .flex-center {
   justify-content: center;
   align-content: center;
@@ -88,7 +91,7 @@ main {
 .links-container {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-size: 40px;
   color: var(--color-primary);
   padding: var(--space) 0;
@@ -111,6 +114,11 @@ main {
 
 .card-header {
   margin-bottom: 25px;
+}
+
+.card-rounded {
+  border-radius: 50%;
+  padding: 20px;
 }
 
 .donut-chart {
@@ -167,9 +175,9 @@ main {
     position: sticky;
   }
 
-  .links-container {
-    justify-content: space-between;
-  }
+  /* .links-container {
+    justify-content: space-evenly;
+  } */
 
   .language-container {
     grid-template-columns: repeat(auto-fit, 49%);

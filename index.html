@@ -2,33 +2,20 @@
   <head>
     <title>Jonathan Silva</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./src/styles/variables.css" />
-    <link rel="stylesheet" href="./src/styles/feather-icons.css" />
-    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/feather-icons.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body class="grid-layout">
     <header class="header">
       <img
         class="profile-pic"
-        src="./src/img/profilepic.jpg"
+        src="./src/assets/img/profile-pic.jpg"
         alt="Profile picture"
       />
       <div style="height: 100%; margin-top: var(--space)">
         <h1 class="text-heading">Jonathan Silva</h1>
         <h3 class="text-subtle">Software Developer</h3>
-        <!-- <section>
-          <h2>Hi there!</h2>
-          <div>
-            <p>
-              I’m a software engineer with 9 years of experience and a Software
-              Engineering degree, working since 2015 as a web developer. I love
-              to find new ways to improve performance on web apps and improve
-              code maintainability. Some of my skills are JavaScript, VueJS,
-              HTML, CSS, and Git. I also like to work with other areas of
-              software engineering like requirements and design.
-            </p>
-          </div>
-        </section> -->
         <div class="header-from">
           <div>
             <p class="text-subtle">From</p>
@@ -52,6 +39,7 @@
             <span class="chip">Cypress</span>
             <span class="chip">TDD</span>
             <span class="chip">GraphQL</span>
+            <span class="chip">Jenkins</span>
           </div>
         </div>
         <div class="space-y-lg">
@@ -94,7 +82,7 @@
     </header>
     <main>
       <div class="content">
-        <section>
+        <section class="space-y-lg">
           <h2>About me</h2>
           <div>
             <p class="text-subtle text-lg">
@@ -110,8 +98,11 @@
         <section>
           <h2>Education</h2>
           <div class="card">
-            <span>2010 - 2014</span>
-            <p>Bachelors in Software Engineering</p>
+            <div class="card-header">
+              <h3>Bachelors in Software Engineering</h3>
+              <h4 class="text-color-primary">Federal University of Goiás</h4>
+              <h4>2010 - 2014</h4>
+            </div>
           </div>
         </section>
         <section>
@@ -188,8 +179,27 @@
         </section>
         <section>
           <h2>Interests</h2>
+          <div class="flex flex-row flex-gap-xxs text-6xl">
+            <span class="flex flex-column flex-center text-center">
+              <span class="card card-rounded icon-globe"></span>
+              <p>Geopolitics</p>
+            </span>
+            <span class="flex flex-column flex-center text-center">
+              <span class="card card-rounded icon-music"></span>
+              <p>Music</p>
+            </span>
+            <span class="flex flex-column flex-center text-center">
+              <span class="card card-rounded icon-sun"></span>
+              <p>Astronomy</p>
+            </span>
+            <span class="flex flex-column flex-center text-center">
+              <span class="card card-rounded icon-map-pin"></span>
+              <p>Travel</p>
+            </span>
+          </div>
         </section>
       </div>
     </main>
+    <footer style="height: 100px"></footer>
   </body>
 </html>
