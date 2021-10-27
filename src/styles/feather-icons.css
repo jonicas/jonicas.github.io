@@ -1,6 +1,7 @@
 @font-face {
   font-family: "feather-icons";
-  src: url("../assets/fonts/feather-icons.woff2") format("woff2");
+  src: url("../assets/fonts/feather-icons.woff2?trjb6y") format("woff2"),
+    url("../assets/fonts/feather-icons.ttf?trjb6y") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -22,6 +23,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-book-open:before {
+  content: "\e904";
+}
+.icon-briefcase:before {
+  content: "\e905";
+}
+.icon-camera:before {
+  content: "\e906";
+}
+.icon-globe:before {
+  content: "\e907";
+}
 .icon-instagram:before {
   content: "\e900";
 }
@@ -30,6 +43,15 @@
 }
 .icon-mail:before {
   content: "\e902";
+}
+.icon-map-pin:before {
+  content: "\e908";
+}
+.icon-music:before {
+  content: "\e909";
+}
+.icon-sun:before {
+  content: "\e90a";
 }
 .icon-twitter:before {
   content: "\e903";
